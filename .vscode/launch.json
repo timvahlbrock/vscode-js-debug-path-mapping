@@ -10,6 +10,7 @@
                 "${workspaceFolder}/out/*.js",
                 "!**/node_modules/**"
             ],
+            "trace": true,
             "preLaunchTask": "npm: compile",
             "pathMapping": {
                 "/": "${workspaceFolder}/out"
