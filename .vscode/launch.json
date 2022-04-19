@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "Launch",
+            "request": "launch",
+            "url": "http://localhost:8125/index.html",
+            "outFiles": [
+                "${workspaceFolder}/out/*.js",
+                "!**/node_modules/**"
+            ],
+            "preLaunchTask": "npm: compile",
+            "pathMapping": {
+                "/": "${workspaceFolder}/out"
+            }
+        }
+    ]
+}

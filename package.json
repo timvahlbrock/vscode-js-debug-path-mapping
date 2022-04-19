@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": "rm -r out && tsc -p . && cp src/index.html out",
+    "serve": "node serve"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
